@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.54" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="1.27" altunitdist="mm" altunit="mm"/>
+<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -55,7 +55,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="100" name="Grid" color="11" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Grid" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Grid2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="tNamesOnPCB" color="5" fill="1" visible="yes" active="yes"/>
@@ -63,10 +63,28 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="33.21" y2="0" width="0" layer="20"/>
-<wire x1="33.21" y1="0" x2="33.224665625" y2="66.743490625" width="0" layer="20"/>
-<wire x1="33.224665625" y1="66.743490625" x2="-0.09671875" y2="66.806940625" width="0" layer="20"/>
-<wire x1="-0.09671875" y1="66.806940625" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="33.037825" y2="0.01565" width="0" layer="20"/>
+<wire x1="33.037825" y1="0.01565" x2="33.029665625" y2="66.061684375" width="0" layer="20"/>
+<wire x1="33.029665625" y1="66.061684375" x2="-0.06421875" y2="66.060203125" width="0" layer="20"/>
+<wire x1="-0.06421875" y1="66.060203125" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="33.037825" y1="0.01565" x2="33.029665625" y2="66.061684375" x3="45.720625" y3="33.040234375" textsize="1.778" layer="1"/>
+<dimension x1="0" y1="0" x2="33.037825" y2="0.01565" x3="16.521321875" y3="-5.07939375" textsize="1.778" layer="1"/>
+<wire x1="35.56" y1="5.08" x2="0" y2="5.08" width="0" layer="100"/>
+<wire x1="35.56" y1="15.24" x2="0" y2="15.24" width="0" layer="100"/>
+<wire x1="35.56" y1="27.94" x2="0" y2="27.94" width="0" layer="100"/>
+<wire x1="35.56" y1="40.64" x2="0" y2="40.64" width="0" layer="100"/>
+<wire x1="35.56" y1="53.34" x2="0" y2="53.34" width="0" layer="100"/>
+<wire x1="35.56" y1="63.5" x2="0" y2="63.5" width="0" layer="100"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="66.04" width="0" layer="100"/>
+<wire x1="22.86" y1="0" x2="25.4" y2="0" width="0" layer="100"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="66.04" width="0" layer="100"/>
+<wire x1="35.56" y1="0" x2="35.56" y2="5.08" width="0" layer="100"/>
+<wire x1="35.56" y1="5.08" x2="35.56" y2="15.24" width="0" layer="100"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="27.94" width="0" layer="100"/>
+<wire x1="35.56" y1="27.94" x2="35.56" y2="40.64" width="0" layer="100"/>
+<wire x1="35.56" y1="40.64" x2="35.56" y2="53.34" width="0" layer="100"/>
+<wire x1="35.56" y1="53.34" x2="35.56" y2="63.5" width="0" layer="100"/>
+<wire x1="35.56" y1="63.5" x2="35.56" y2="66.04" width="0" layer="100"/>
 </plain>
 <libraries>
 <library name="rcl">
